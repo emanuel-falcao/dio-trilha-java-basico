@@ -15,6 +15,7 @@ public class ContaTerminal {
         double deposito = scanner.nextDouble();
         System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, na agencia %s, conta %s e saldo %s",
                 nome, agencia, conta, deposito);
+        scanner.close();
 
     }
 }
